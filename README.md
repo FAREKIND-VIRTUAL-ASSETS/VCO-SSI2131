@@ -15,7 +15,7 @@ A basic and generic VCO based on SSI2131
 | `pulse width` | Potentiometer | Almost full-range (0% ~ 100%) pulse width control of `pulse`
 | `fm amt`      | Potentiometer | `fm` amount
 | `pulse amt`   | Potentiometer | `pwm` amount
-| `lfm`         | Switch button | FM type for `fm`, expoential (off) or linear (on)
+| `lfm`         | Switch button | FM type for `fm`, exponential (off) or linear (on)
 | `lfm` LED     | LED           | Blue LED indicates if `lfm` switched on
 | `soft`        | Switch button | Sync type for `sync`, hard (off) or soft (on)
 | `soft` LED    | LED           | Blue LED indicates if `soft` switched on
@@ -31,7 +31,7 @@ There are 3 rheostats on the PCB panel
 | Name       | Description |
 |:-----------|:------------|
 | `VR_SCALE` | Adjust frequency range (scale) for SSI2131
-| `VR_HFT`   | Adjust high frequency compensation for SSI2131's expotential converter
+| `VR_HFT`   | Adjust high frequency compensation for SSI2131's exponential converter
 | `VR_SINE`  | Adjust sine shaper in tri-to-sine circuit 
 
 
