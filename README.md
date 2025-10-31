@@ -1,6 +1,8 @@
 # VCO-SSI2131
 A basic and generic VCO based on SSI2131
 
+![VCO product image](./IMG_20251011_013322.jpg)
+
 ## Interface
 
 ### Main panel
