@@ -43,8 +43,8 @@ There are 3 rheostats on the PCB panel
 |:--------|:--------|:------|:------|:------|
 | `v/oct` | Input   | 0V    | +10V  |
 | `fm`    | Input   | -5V   | +5V   | 
-| `sync`  | Input   | -5V   | +5V   | Triggers on rising edge
-| `pwm`   | Input   | -5V   | +5V   | Pulse wave modulation, only apply for `pulse`
+| `sync`  | Input   | -5V   | +5V   | Oscillator synchronization input, triggers on rising edge
+| `pwm`   | Input   | -5V   | +5V   | Pulse width modulation, only apply for `pulse`
 
 
 ### Outputs
@@ -68,6 +68,16 @@ There are 3 rheostats on the PCB panel
 - `+12V`: 38mA
 - `-12V`: 24mA
 - `+5V`: N/A
+
+
+### Miscellaneous
+#### About soft sync
+
+> **From SSI2131 datasheet:**
+> Soft sync synchronizes the SSI2131 to an external signal when the triangle waveform is falling and close to GND.
+> A capacitively-coupled pulse on the SOFT SYNC input will cause the triangle to switch from falling to rising. If the voltage on TCAP is too high then synchronization will not take place.
+> The synchronization is “soft” in that it only occurs within a narrow part of the oscillating cycle; at all other times it has no effect.
+
 
 ----------
 
