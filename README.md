@@ -21,7 +21,7 @@ A basic and generic VCO based on SSI2131
 | `soft` LED    | LED           | Blue LED indicates if `soft` switched on
 | `lfo/osc`     | Toggle switch | Switch between oscillator mode and LFO mode
 
-> *NOTICE: In LFO mode, `sync` input may not trigger oscillator sync. Not guaranteed to solve this issue.*
+> *NOTICE: If `sync` input frequency to low, it may not trigger oscillator sync. Not guaranteed to solve this issue.*
 
 
 ### Fine-tuning
