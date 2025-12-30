@@ -58,8 +58,8 @@ There are 3 rheostats on the PCB panel
 
 ### Physical dimension
 
-- Height: 3U
-- Width: 8hp
+- Height: 128.5mm (3U)
+- Width: 40.3mm (8hp)
 - Depth: 36mm
 
 
