@@ -73,21 +73,25 @@ There are 3 rheostats on the PCB panel
 ### Miscellaneous
 #### About soft sync
 
-> **From SSI2131 datasheet:**
 > Soft sync synchronizes the SSI2131 to an external signal when the triangle waveform is falling and close to GND.
 > A capacitively-coupled pulse on the SOFT SYNC input will cause the triangle to switch from falling to rising. If the voltage on TCAP is too high then synchronization will not take place.
 > The synchronization is “soft” in that it only occurs within a narrow part of the oscillating cycle; at all other times it has no effect.
+> 
+> —— _From SSI2131 datasheet_
 
-#### Panel design
+#### Design your panel
 
-Blank panel design files in various file formats are provided. 
+Blank panel design files in various file formats are provided.
 Drill holes are filled in black, soldering mask are filled in grey.
 
-<img src="./FVA-SSI2131VCO.svg" alt="Panel drills" width="228"></img>
+Available file formats:
+| Format | Software / Toolchain |
+|:---------------|:------------------------|
+| `.afdesign`    | Affinity Designer 2.6.5
+| `.svg`, `.dxf` | Affinity Designer 2.6.5
+| `.ai`          | Adobe Illustrator 2022
 
-- `.afdesign` - my main design tool, Affinity Designer 2.6.5 
-- `.svg`, `.dxf` - directly exoprted from Affinity Designer
-- `.ai` - comes by importing `.dxf` into Adobe Illustrator 2022
+<img src="./FVA-SSI2131VCO.svg" alt="Panel drills" width="228"></img>
 
 ----------
 
