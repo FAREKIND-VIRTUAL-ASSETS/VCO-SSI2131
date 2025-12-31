@@ -21,8 +21,6 @@ A basic and generic VCO based on SSI2131
 | `soft` LED    | LED           | Blue LED indicates if `soft` switched on
 | `lfo/osc`     | Toggle switch | Switch between oscillator mode and LFO mode
 
-> *NOTICE: If `sync` input frequency to low, it may not trigger oscillator sync. Not guaranteed to solve this issue.*
-
 
 ### Fine-tuning
 
@@ -87,7 +85,7 @@ Drill holes are filled in black, soldering mask are filled in grey.
 Available file formats:
 | Format | Software / Toolchain |
 |:---------------|:------------------------|
-| `.afdesign`    | Affinity Designer 2.6.5
+| `.afdesign`    | Affinity Designer 2.6.5 (My main design tool)
 | `.svg`, `.dxf` | Affinity Designer 2.6.5
 | `.ai`          | Adobe Illustrator 2022
 
